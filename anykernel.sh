@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=BakaSU + SuSFS v2.3.0 Kernel for Xiaomi 11T Pro (vili)
+kernel.string=kryptonite for vili
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -36,6 +36,21 @@ PATCH_VBMETA_FLAG=auto;
 
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
+
+ui_print " ";
+ui_print "       /\\                 /\\";
+ui_print "      /  \\___         ___/  \\";
+ui_print "     /      /\\_______/\\      \\";
+ui_print "    /  /\\  /  \\     /  \\  /\\  \\";
+ui_print "   /__/  \\/    \\___/    \\/  \\__\\";
+ui_print "   \\  \\  /   /\\     /\\   \\  /  /";
+ui_print "    \\  \\/   /  \\___/  \\   \\/  /";
+ui_print "     \\     /   / K \\   \\     /";
+ui_print "      \\___/   /____\\   \\___/";
+ui_print " ";
+ui_print "       K R Y P T O N I T E";
+ui_print "          DARK KNIGHT";
+ui_print " ";
 
 # boot install
 split_boot;
